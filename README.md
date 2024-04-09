@@ -1,5 +1,7 @@
 # next 다국어 지원 next-intl
 
+![alt text](til0.gif)
+
 [next-intl 링크](https://next-intl-docs.vercel.app/docs/getting-started)
 
 ```
