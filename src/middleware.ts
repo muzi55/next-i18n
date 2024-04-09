@@ -1,11 +1,13 @@
 import createMiddleware from 'next-intl/middleware';
 
 export default createMiddleware({
-  locales: ['en', 'ko'], // 지원 언어
-  defaultLocale: 'ko', // 기본 언어
+  // 지원하는 언어
+  locales: ['en', 'ko'],
+  // 기본 언어
+  defaultLocale: 'ko',
 });
 
 export const config = {
-  // Match only internationalized pathnames
+  // 미들웨어를 적용할 경로
   matcher: ['/', '/(ko|en)/:path*'],
 };
